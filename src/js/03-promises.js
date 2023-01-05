@@ -47,3 +47,5 @@ function onSuccess({ position, delay }) {
 function onError({ position, delay }) {
   Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
 }
+
+// accepted
